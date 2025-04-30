@@ -1,0 +1,93 @@
+/* Reseta margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #8a008f;
+}
+
+/* Estilo da seção de introdução */
+#intro {
+    text-align: center;
+    padding: 50px;
+    background-color: #020202;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contagem regressiva */
+#evento {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+#contagem {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Galeria de imagens */
+#imagens {
+    padding: 50px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    max-width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.galeria img:hover {
+    transform: scale(0.9);
+    box-shadow: #770a0a;
+}
+
+/* Vídeos */
+#videos {
+    padding: 50px;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+video {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* Música */
+#musica {
+    padding: 50px;
+    text-align: center;
+    background-color: #000000;
+}
+
+audio {
+    margin: 20px 0;
+}
+
+/* Texto da Música */
+.texto-musica {
+    font-style: italic;
+    margin-top: 20px;
+}
